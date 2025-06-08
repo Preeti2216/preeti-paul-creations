@@ -41,7 +41,7 @@ const ContactSection = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="grid lg:grid-cols-3 gap-8">
-            
+
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <Card className="bg-white/70 backdrop-blur-sm border-0 shadow-xl">
@@ -85,7 +85,7 @@ const ContactSection = () => {
                         />
                       </div>
                     </div>
-                    
+
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                         Message
@@ -100,8 +100,8 @@ const ContactSection = () => {
                         required
                       />
                     </div>
-                    
-                    <Button 
+
+                    <Button
                       type="submit"
                       className="w-full bg-gradient-primary hover:opacity-90 text-white border-0 transform hover:scale-105 transition-all"
                     >
@@ -115,7 +115,7 @@ const ContactSection = () => {
 
             {/* Contact Info & Social Links */}
             <div className="space-y-6">
-              
+
               {/* Social Links Card */}
               <Card className="bg-white/70 backdrop-blur-sm border-0 shadow-xl">
                 <CardHeader>
@@ -124,9 +124,9 @@ const ContactSection = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <a 
-                    href="https://www.youtube.com/@allaboutpreeti" 
-                    target="_blank" 
+                  <a
+                    href="https://www.youtube.com/@allaboutpreeti"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center p-3 rounded-lg bg-gradient-to-r from-red-500 to-pink-500 text-white hover:from-red-600 hover:to-pink-600 transition-all transform hover:scale-105"
                   >
@@ -136,9 +136,10 @@ const ContactSection = () => {
                       <div className="text-sm opacity-90">10K+ Subscribers</div>
                     </div>
                   </a>
-                  
-                  <a 
-                    href="#" 
+
+                  <a
+                    href="https://www.linkedin.com/in/paul-preeti/"
+                    target="_blank"
                     className="flex items-center p-3 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800 transition-all transform hover:scale-105"
                   >
                     <Linkedin className="h-5 w-5 mr-3" />
@@ -147,9 +148,10 @@ const ContactSection = () => {
                       <div className="text-sm opacity-90">Professional Network</div>
                     </div>
                   </a>
-                  
-                  <a 
-                    href="#" 
+
+                  <a
+                    href="https://github.com/Preeti2216"
+                    target="_blank"
                     className="flex items-center p-3 rounded-lg bg-gradient-to-r from-gray-800 to-gray-900 text-white hover:from-gray-900 hover:to-black transition-all transform hover:scale-105"
                   >
                     <Github className="h-5 w-5 mr-3" />
@@ -158,9 +160,10 @@ const ContactSection = () => {
                       <div className="text-sm opacity-90">Code Repository</div>
                     </div>
                   </a>
-                  
-                  <a 
-                    href="#" 
+
+                  <a
+                    href="https://www.instagram.com/preetipaul22/"
+                    target="_blank"
                     className="flex items-center p-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:from-pink-600 hover:to-purple-700 transition-all transform hover:scale-105"
                   >
                     <Instagram className="h-5 w-5 mr-3" />
@@ -172,20 +175,21 @@ const ContactSection = () => {
                 </CardContent>
               </Card>
 
-              {/* Quick Info Card */}
-              <Card className="bg-white/70 backdrop-blur-sm border-0 shadow-xl">
-                <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl">🚀</span>
-                  </div>
-                  <h3 className="font-display font-semibold text-lg mb-2">Ready to collaborate?</h3>
-                  <p className="text-muted-foreground text-sm">
-                    I'm always open to discussing new opportunities, innovative projects, and creative collaborations.
-                  </p>
-                </CardContent>
-              </Card>
+
             </div>
           </div>
+          {/* Quick Info Card */}
+          <Card className="bg-white/70 backdrop-blur-sm border-0 shadow-xl mt-6">
+            <CardContent className="p-6 text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🚀</span>
+              </div>
+              <h3 className="font-display font-semibold text-lg mb-2">Ready to collaborate?</h3>
+              <p className="text-muted-foreground text-sm">
+                I'm always open to discussing new opportunities, innovative projects, and creative collaborations.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>

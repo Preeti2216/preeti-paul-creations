@@ -19,7 +19,7 @@ const ContentCreatorSection = () => {
 
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            
+
             {/* Left side - Video and stats */}
             <div className="animate-fade-in">
               <Card className="bg-gradient-to-br from-red-50 to-pink-50 border-0 shadow-xl overflow-hidden">
@@ -34,7 +34,7 @@ const ContentCreatorSection = () => {
                       <p className="text-sm opacity-90">Click to watch on YouTube</p>
                     </div>
                   </div>
-                  
+
                   {/* Channel stats */}
                   <div className="p-6">
                     <div className="grid grid-cols-2 gap-4">
@@ -48,7 +48,7 @@ const ContentCreatorSection = () => {
                       <div className="text-center">
                         <div className="flex items-center justify-center mb-2">
                           <Eye className="h-5 w-5 text-red-500 mr-2" />
-                          <span className="text-2xl font-bold text-red-600">50K+</span>
+                          <span className="text-2xl font-bold text-red-600">1.5M+</span>
                         </div>
                         <p className="text-sm text-muted-foreground">Total Views</p>
                       </div>
@@ -73,15 +73,15 @@ const ContentCreatorSection = () => {
 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Welcome to my YouTube channel where I share my passion for technology, coding, and professional growth! 
-                    With over <strong className="text-red-600">10,000 subscribers</strong> and growing, I create content that helps 
+                    Welcome to my YouTube channel where I share my passion for technology, coding, and professional growth!
+                    With over <strong className="text-red-600">10,000 subscribers</strong> and growing, I create content that helps
                     developers and tech enthusiasts on their journey.
                   </p>
-                  
+
                   <p>
                     My videos cover a wide range of topics including:
                   </p>
-                  
+
                   <ul className="space-y-2 ml-4">
                     <li className="flex items-start">
                       <span className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></span>
@@ -103,7 +103,7 @@ const ContentCreatorSection = () => {
                 </div>
 
                 <div className="pt-6">
-                  <Button 
+                  <Button
                     className="bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white border-0 transform hover:scale-105 transition-all"
                     onClick={() => window.open('https://www.youtube.com/@allaboutpreeti', '_blank')}
                   >
